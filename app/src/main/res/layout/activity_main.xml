@@ -14,11 +14,17 @@
         android:id="@+id/label1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Shake the phone to vibrate" />
+        android:text="Shake the phone to vibrate/beep"
+        android:layout_marginTop="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:id="@+id/output"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calm" />
+        android:text="Calm"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/label1"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
