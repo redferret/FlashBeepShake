@@ -27,4 +27,24 @@
         android:layout_marginTop="35dp"
         android:layout_below="@+id/label1"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/output"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Toggle Light"
+        android:onClick="toggleFlashlight"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Beep"
+        android:onClick="startTone"/>
 </RelativeLayout>
